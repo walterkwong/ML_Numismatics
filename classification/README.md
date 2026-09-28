@@ -43,7 +43,7 @@ A multi-task model predicts:
 
 The variety prediction is evaluated through image retrieval using cosine similarity rather than the classification head. This allows the system to identify varieties that were not present during training, given the limited availability of suitable datasets.
 
-A hierarchical re-ranking step combines visual similarity with the predicted family, category, face value and year. This produces the final variety posterior and also refines the category, face value and year predictions.
+A hierarchical reranking step combines visual similarity with the predicted family, category, face value and year. This produces the final variety posterior and also refines the category, face value and year predictions.
 
 ### Evaluation
 
@@ -61,6 +61,6 @@ The classification pipeline measures:
 
 ConvNeXt performed best for the classification tasks, achieving 95.16% family accuracy, 92.90% category accuracy and 93.59% face-value accuracy, with a mean latency of 7.94 ms.
 
-However, evaluation of coin varieties was affected by instance-level memorisation, limiting the ability to assess generalisation to unseen varieties reliably.
+However, evaluation of coin varieties was affected by instance level memorisation, limiting the ability to assess generalisation to unseen varieties reliably.
 
-Computer vision architectures show strong potential for coin classification, but limited access to high-quality data remains a major bottleneck for robust model training and evaluation.
+Computer vision architectures show strong potential for coin classification, but limited access to high quality data remains a major bottleneck for robust model training and evaluation.
