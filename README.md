@@ -1,9 +1,9 @@
 # Machine Learning in Numismatics: Automated Rare Coin Classification and Valuation System
 
 Research project investigating automated coin analysis using computer vision. It contains three independent components:
-1. **Segmentation**: detects and segments coins in an image using YOLO.
-2. **Classification**: identifies a coin's variety, family, category, face value and year.
-3. **Grading**: estimates a coin's Sheldon grade (1–70) from a photograph.
+1. [**Segmentation**](https://github.com/walterkwong/ML_Numismatics/tree/main/YOLO): detects and segments coins in an image using YOLO.
+2. [**Classification**](https://github.com/walterkwong/ML_Numismatics/tree/main/classification): identifies a coin's variety, family, category, face value and year.
+3. [**Grading**](https://github.com/walterkwong/ML_Numismatics/tree/main/grading): estimates a coin's Sheldon grade (1–70) from a photograph.
 
 The classification and grading pipelines compare pretrained vision backbones with different adaptation methods and use multi-task prediction with Bayesian fusion.
 
